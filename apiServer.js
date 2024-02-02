@@ -26,7 +26,7 @@ app.post('/getWeather', async (req, res) => {
 
 // Function to get weather information for an array of cities
 async function getWeatherForCities(cities) {
-    const apiId = 'f42b1c52764881af8f8a68d90186a351';
+    const apiId = 'YOUR_WEATHER_API_KEY';
     const units = 'metric';
     const url = 'https://api.openweathermap.org/data/2.5/weather?'; // OpenWeatherMap API credentials and endpoint details
     const weatherResult = {};
