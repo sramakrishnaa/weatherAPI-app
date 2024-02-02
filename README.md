@@ -30,7 +30,7 @@ This is a simple web application that allows users to get the real-time temperat
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/weather-app-api.git
+   https://github.com/sramakrishnaa/weatherAPI-app.git
 2. **Navigate to the project directory:**
 
    ```bash
@@ -39,3 +39,31 @@ This is a simple web application that allows users to get the real-time temperat
 
    ```bash
    npm install
+
+### Configuration
+1. **Get an OpenWeatherMap API Key:**
+   - Visit [OpenWeatherMap](https://openweathermap.org/) and sign up for a free account.
+   - Obtain your API key from your account dashboard.
+2. **Configure the API server:**
+   - Open apiServer.js.
+   - Replace the placeholder apiId with your OpenWeatherMap API key.
+
+## usage
+1. **Start the API server:**
+
+   ```bash
+   nodemon apiServer.js
+2. **Start the UI Server:**
+   ```bash
+   nodemon uiServer.js
+
+The API server will be running at http://localhost:3000, and the UI server at http://localhost:4000. \
+
+3. **Open your browser and visit http://localhost:4000 to use the Weather App API.**
+
+## Contributing
+Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
