@@ -62,12 +62,16 @@ The API server will be running at http://localhost:3000, and the UI server at ht
 3. **Open your browser and visit http://localhost:4000 to use the Weather App API.**
 
 ## Screenshots
+1. User successfully runs the application at `http://localhost:4000`.
+   ![Screenshot 1](screenshots/web1.png)
+2. User inputs multiple cities in the form and submits.
+   ![Screenshot 1](screenshots/web3.png)
+3. User enters an invalid city name.
+   ![Screenshot 1](screenshots/web2.png)
+4. User submits the form without entering any cities.
+   ![Screenshot 1](screenshots/web4.png)
 
-![Screenshot 1](screenshots/Screenshot1.png)
-![Screenshot 2](screenshots/Screenshot2.png)
-![Screenshot 3](screenshots/Screenshot3.png)
-![Screenshot 4](screenshots/Screenshot4.png)
-![Screenshot 5](screenshots/Screenshot5.png)
+
 
 ## Contributing
 Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or submit a pull request.
