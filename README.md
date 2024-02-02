@@ -57,9 +57,17 @@ This is a simple web application that allows users to get the real-time temperat
    ```bash
    nodemon uiServer.js
 
-The API server will be running at http://localhost:3000, and the UI server at http://localhost:4000. \
+The API server will be running at http://localhost:3000, and the UI server at http://localhost:4000.
 
 3. **Open your browser and visit http://localhost:4000 to use the Weather App API.**
+
+## Screenshots
+
+![Screenshot 1](screenshots/Screenshot1.png)
+![Screenshot 2](screenshots/Screenshot2.png)
+![Screenshot 3](screenshots/Screenshot3.png)
+![Screenshot 4](screenshots/Screenshot4.png)
+![Screenshot 5](screenshots/Screenshot5.png)
 
 ## Contributing
 Contributions are welcome! If you find any issues or have improvements to suggest, please open an issue or submit a pull request.
